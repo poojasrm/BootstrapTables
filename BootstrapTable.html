@@ -1,0 +1,375 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+  <figure class="text-center pt-3">
+  <blockquote class="blockquote">
+    <p class="text-danger fw-bold" style="font-size: 40px">Different Types of Tables in Bootstrap.</p>
+  </blockquote>
+</figure>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-header">
+          <p>Simple Table</p>
+        </div>
+        <div class="card-body">
+          <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">IG Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-secondary">@sharma07puja</span></td>
+      <td><button class="btn btn-secondary btn-sm fst-italic">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-secondary">@preetinigania</span></td>
+      <td><button class="btn btn-secondary btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-secondary">@vinikasingh</span></td>
+      <td><button class="btn btn-secondary btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header">
+<p>Hoverable Table</p>
+</div>
+<div class="card-body">
+   <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-info">@sharma07puja</span></td>
+      <td><button class="btn btn-info btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-info">@preetinigania</span></td>
+      <td><button class="btn btn-info btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-info">@vinikasingh</span></td>
+      <td><button class="btn btn-info btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="container-flex mt-5">
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-header">
+
+<p>Bordered Table</p>
+</div>
+<div class="card-body">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-dark">@sharma07puja</span></td>
+      <td><button class="btn btn-dark btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-dark">@preetinigania</span></td>
+      <td><button class="btn btn-dark btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-dark">@vinikasingh</span></td>
+      <td><button class="btn btn-dark btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-6">
+  <div class="card">
+    <div class="card-header">
+<p>Accented Table</p>
+</div>
+<div class="card-body">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-warning">@sharma07puja</span></td>
+      <td><button class="btn btn-warning btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-warning">@preetinigania</span></td>
+      <td><button class="btn btn-warning btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-warning">@vinikasingh</span></td>
+      <td><button class="btn btn-warning btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="container-flex mt-5">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-header">
+<p>Active Table</p>
+</div>
+<div class="card-body">
+<table class="table">
+   <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-danger">@sharma07puja</span></td>
+      <td><button class="btn btn-danger btn-sm">Click</button></td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-danger">@preetinigania</span></td>
+      <td><button class="btn btn-danger btn-sm">Click</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-danger">@vinikasingh</span></td>
+      <td><button class="btn btn-danger btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-6">
+  <div class="card">
+    <div class="card-header">
+<p>Borderless Table</p>
+</div>
+<div class="card-body">
+<table class="table table-borderless">
+   <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-success">@sharma07puja</span></td>
+      <td><button class="btn btn-success btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-success">@preetinigania</span></td>
+      <td><button class="btn btn-success btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td class="colspan=2">Monika Singh</td>
+      <td></td>
+      <td><span class="badge bg-success">@vinikasingh</span></td>
+      <td><button class="btn btn-success btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-header">
+<p>Small Table</p>
+</div>
+<div class="card-body">
+<table class="table table-sm table-dark">
+   <thead>
+    <tr>
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-primary">@sharma07puja</span></td>
+      <td><button class="btn btn-primary btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-primary">@preetinigania</span></td>
+      <td><button class="btn btn-primary btn-sm">Click</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-primary">@vinikasingh</span></td>
+      <td><button class="btn btn-primary btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-6">
+  <div class="card">
+    <div class="card-header">
+      <p>Coloured Table</p>
+    </div>
+    <div class="card-body">
+      <table class="table table-light">
+       <thead>
+    <tr class="table-secondary">
+      <th scope="col">SrNo.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Ig Handle</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-success">
+      <th scope="row">1</th>
+      <td>Pooja</td>
+      <td>Sharma</td>
+      <td><span class="badge bg-secondary">@sharma07puja</span></td>
+      <td><button class="btn btn-secondary btn-sm">Click</button></td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">2</th>
+      <td>Preeti</td>
+      <td>Yadav</td>
+      <td><span class="badge bg-secondary">@preetinigania</span></td>
+      <td><button class="btn btn-secondary btn-sm">Click</button></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">3</th>
+      <td>Monika</td>
+      <td>Singh</td>
+      <td><span class="badge bg-secondary">@vinikasingh</span></td>
+      <td><button class="btn btn-secondary btn-sm">Click</button></td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
